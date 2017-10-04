@@ -9,10 +9,10 @@ export default ({
         <Slider
             dots
             arrows={false}
+            swipe={false}
             infinite
             autoplay
             fade
-            pauseOnHover
             autoplaySpeed={3000 + Math.floor(Math.random() * 1000)}
         >
             {

@@ -5,7 +5,7 @@
             "url": "https://tailorfood.me/",
             "fromTime": "August 2017",
             "toTime": "Present",
-            "desc": "tailor is a mobile app that suggests new restaurtants based on your habits and favourites using linear regression.",
+            "desc": "tailor is a mobile app that suggests new restaurtants by using a linear regression model to learn your favourites.",
             "tech": [
                 "JavaScript",
                 "React Native",
