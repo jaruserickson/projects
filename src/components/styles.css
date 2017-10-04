@@ -58,6 +58,25 @@
 
 /* Header Style */
 
+.soccontainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -moz-box;
+    display: -webkit-flex; 
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    text-decoration: none;
+}
+
+.button {
+    text-decoration: none;
+}
+
+
 .header-container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -66,8 +85,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-top: 100px;
-    padding-bottom: 80px;
+    margin-top: 80px;
+    margin-bottom: 40px;
     z-index: 3;
 }
 

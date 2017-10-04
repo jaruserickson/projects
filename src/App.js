@@ -10,12 +10,14 @@ class App extends Component {
     render() {
         return (
             <div className="app">
-                <a className="button" href="https://jaruserickson.com/">
+                <div className="header-container">
                     <Header
                         name={projects.header.name}
                         subtitle={projects.header.subtitle}
+                        social={projects.header.social}
                     />
-                </a>
+                </div>
+                <p className="projects-title">projects</p>
                 <div className="projects">
                     {
                         projects.projects.map((project) => (
@@ -23,6 +25,12 @@ class App extends Component {
                         ))
                     }
                 </div>
+                <div className="bg" style={{
+                    background: projects.background,
+                    backgroundPosition: 'center',
+                    backgroundSize: '100% 100%',
+                    backgroundSize: 'cover',
+                }}/>
             </div>
         )
     }

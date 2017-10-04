@@ -1,4 +1,16 @@
 {
+    "header": {
+        "name": "jacob erickson",
+        "subtitle": "software engineer",
+        "social": {
+            "github": "jaruserickson",
+            "instagram": "jaruserickson",
+            "resume": "https://s3.amazonaws.com/jaruserickson/resume.pdf",
+            "linkedin": "jaruserickson",
+            "lastfm": "jarus_e"
+        }
+    },
+    "background": "url(https://storage.googleapis.com/staging.tailor-1d71a.appspot.com/out4.gif)",
     "projects": [
         {
             "name": "tailor",
@@ -109,9 +121,5 @@
                 ]
             }
         }
-    ],
-    "header": {
-        "name": "jacob erickson",
-        "subtitle": "projects"
-    }
+    ]
 }

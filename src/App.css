@@ -15,8 +15,8 @@ a:hover{
     justify-content: center;
     text-align: center;
     flex-direction: column;
-    background-color: #576f7c;
     margin-bottom: 40px;
+    text-decoration: none;
 }
 
 .projects {
@@ -26,8 +26,44 @@ a:hover{
     display: -webkit-flex; 
     display: flex;
     flex-direction: column;
+    z-index: 3;
 }
 
-.button {
-    text-decoration: none;
+.projects-title {
+    color: white;
+    font-family: 'Reenie Beanie', sans-serif;
+    font-size: 3em;
+    padding: 0;
+    margin: 0;
+    margin-top: 100px;
+    z-index: 3;
+}
+
+.bg {
+    opacity: 0;
+    position: fixed;
+    height: 110%;
+    width: 110%;
+    top: -20px;
+
+    -webkit-filter: blur(15px);
+    -moz-filter: blur(15px);
+    -o-filter: blur(15px);
+    -ms-filter: blur(15px);
+    filter: blur(15px);
+
+    animation-name: fadeIn;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1s;
+    animation-fill-mode:forwards;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
