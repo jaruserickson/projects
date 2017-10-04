@@ -5,7 +5,7 @@
             "url": "https://tailorfood.me/",
             "fromTime": "August 2017",
             "toTime": "Present",
-            "desc": "tailor is a mobile app that suggests new restaurtants by using a linear regression model to learn your favourites.",
+            "desc": "tailor is a mobile app [in development] that suggests new restaurtants using a linear regression model to learn your favourites.",
             "tech": [
                 "JavaScript",
                 "React Native",
@@ -13,9 +13,9 @@
                 "Amazon AWS"
             ],
             "imageUrls": [
-                "https://storage.googleapis.com/staging.tailor-1d71a.appspot.com/tailor.jpg",
-                "https://storage.googleapis.com/staging.tailor-1d71a.appspot.com/tailor04.png",
-                "https://storage.googleapis.com/staging.tailor-1d71a.appspot.com/tailor03.png"
+                "https://storage.googleapis.com/staging.tailor-1d71a.appspot.com/tailorr.png",
+                "https://storage.googleapis.com/staging.tailor-1d71a.appspot.com/tailor06.png",
+                "https://storage.googleapis.com/staging.tailor-1d71a.appspot.com/tailor05.png"
             ],
             "links": {
                 "github": [
@@ -27,17 +27,17 @@
         },
         {
             "name": "Spotiplay",
+            "url": "https://spotiplay.jaruserickson.com/",
             "fromTime": "October 2017",
             "toTime": ".",
-            "desc": "spotiplay is a python CLI for making rooms where users can add songs and listen to songs with their friends.",
+            "desc": "spotiplay is a python CLI [in development] for making rooms where users can add songs and listen to songs with their friends.",
             "tech": [
                 "Python",
                 "Spotify API"
             ],
             "imageUrls": [
-                "https://storage.googleapis.com/staging.tailor-1d71a.appspot.com/tailor.jpg",
-                "https://storage.googleapis.com/staging.tailor-1d71a.appspot.com/tailor04.png",
-                "https://storage.googleapis.com/staging.tailor-1d71a.appspot.com/tailor03.png"
+                "https://storage.googleapis.com/staging.tailor-1d71a.appspot.com/spotiplay.png",
+                "https://storage.googleapis.com/staging.tailor-1d71a.appspot.com/spotiplay01.png"
             ],
             "links": {
                 "github": [
@@ -47,6 +47,7 @@
         },
         {
             "name": "ytmusic",
+            "url": "https://ytmusic.jaruserickson.com/",
             "fromTime": "January 2047",
             "toTime": ".",
             "desc": "ytmusic aims to simplify the music listening experience YouTube offers to simply music.",
@@ -56,9 +57,8 @@
                 "YouTube API"
             ],
             "imageUrls": [
-                "https://storage.googleapis.com/staging.tailor-1d71a.appspot.com/tailor.jpg",
-                "https://storage.googleapis.com/staging.tailor-1d71a.appspot.com/tailor04.png",
-                "https://storage.googleapis.com/staging.tailor-1d71a.appspot.com/tailor03.png"
+                "https://storage.googleapis.com/staging.tailor-1d71a.appspot.com/ytmusicblock.png",
+                "https://storage.googleapis.com/staging.tailor-1d71a.appspot.com/ytmusic07.png"
             ],
             "links": {
                 "github": [
@@ -78,9 +78,8 @@
                 "Cloudflare"
             ],
             "imageUrls": [
-                "https://storage.googleapis.com/staging.tailor-1d71a.appspot.com/tailor.jpg",
-                "https://storage.googleapis.com/staging.tailor-1d71a.appspot.com/tailor04.png",
-                "https://storage.googleapis.com/staging.tailor-1d71a.appspot.com/tailor03.png"
+                "https://storage.googleapis.com/staging.tailor-1d71a.appspot.com/uoftesports01.png",
+                "https://storage.googleapis.com/staging.tailor-1d71a.appspot.com/uoftesports02.png"
             ],
             "links": {
                 "github": [
@@ -101,9 +100,8 @@
                 "Cloudflare"
             ],
             "imageUrls": [
-                "https://storage.googleapis.com/staging.tailor-1d71a.appspot.com/tailor.jpg",
-                "https://storage.googleapis.com/staging.tailor-1d71a.appspot.com/tailor04.png",
-                "https://storage.googleapis.com/staging.tailor-1d71a.appspot.com/tailor03.png"
+                "https://storage.googleapis.com/staging.tailor-1d71a.appspot.com/utcsc01.png",
+                "https://storage.googleapis.com/staging.tailor-1d71a.appspot.com/utcsc02.png"
             ],
             "links": {
                 "github": [
