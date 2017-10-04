@@ -12,7 +12,7 @@ i personally recommend [surge](http://surge.sh) for hosting static sites, instal
 ```
 npm i -g surge
 ```
-now in the project folder
+now in the project folder (after logging into surge `surge login`)
 ```
 npm i
 npm run-script build
