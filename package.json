@@ -4,10 +4,12 @@
   "private": true,
   "homepage": "https://jaruserickson.com",
   "dependencies": {
+    "fbjs": "^0.8.16",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
     "react-icons": "^2.2.5",
     "react-scripts": "1.0.14",
+    "react-scrollchor": "^4.0.0",
     "react-slick": "^0.15.4",
     "slick-carousel": "^1.8.1"
   },
