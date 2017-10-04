@@ -6,7 +6,10 @@ import {
 } from './components'
 import projects from './projects.json'
 import FaAngleDown from 'react-icons/lib/fa/angle-down'
-import Scrollchor from 'react-scrollchor'
+import {
+    Element,
+    Link
+} from 'react-scroll'
 
 class App extends Component {
     render() {
@@ -18,9 +21,16 @@ class App extends Component {
                         subtitle={projects.header.subtitle}
                         social={projects.header.social}
                     />
-                    <Scrollchor to="#projects" className="down"><FaAngleDown size={38} color={'rgba(255,255,255,0.8)'}/></Scrollchor>
+                    <Link 
+                        to="projects" 
+                        className="down"
+                        smooth={true} 
+                        duration={500}
+                    >
+                        <FaAngleDown size={38} color={'rgba(255,255,255,0.8)'}/>
+                    </Link>
                 </div>
-                <div id="projects" /> 
+                <Element name="projects" /> 
                 <p className="projects-title">projects</p>
                 <div className="projects">
                     {

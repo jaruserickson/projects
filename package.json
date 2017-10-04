@@ -9,7 +9,7 @@
     "react-dom": "^16.0.0",
     "react-icons": "^2.2.5",
     "react-scripts": "1.0.14",
-    "react-scrollchor": "^4.0.0",
+    "react-scroll": "^1.5.5",
     "react-slick": "^0.15.4",
     "slick-carousel": "^1.8.1"
   },
