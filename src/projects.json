@@ -3,7 +3,7 @@
         {
             "name": "tailor",
             "url": "https://tailorfood.me/",
-            "fromTime": "August 2047",
+            "fromTime": "August 2017",
             "toTime": "Present",
             "desc": "tailor is a mobile app that suggests new restaurtants based on your habits and favourites using linear regression.",
             "tech": [
@@ -28,7 +28,7 @@
         {
             "name": "Spotiplay",
             "url": "https://github.com/jaruserickson/spotiplay/",
-            "fromTime": "September 2047",
+            "fromTime": "October 2017",
             "toTime": ".",
             "desc": "spotiplay is a python CLI for making rooms where users can add songs and listen to songs with their friends.",
             "tech": [
@@ -61,7 +61,7 @@
         {
             "name": "UofT eSports website",
             "url": "https://uoftesports.club/",
-            "fromTime": "January 2047",
+            "fromTime": "January 2017",
             "toTime": "Present",
             "desc": "The UofT eSports club serves as a central club for all the various eSports clubs at the University of Toronto.",
             "tech": [
@@ -83,12 +83,11 @@
         {
             "name": "UofT CounterStrike website",
             "url": "https://cs.uoftesports.club/",
-            "fromTime": "August 2047",
+            "fromTime": "August 2017",
             "toTime": "Present",
             "desc": "The UofT CounterStrike Club brings CounterStrike players of all kinds together at the UofT for collegiate and intramural play.",
             "tech": [
-                "HTML",
-                "CSS",
+                "HTML/CSS",
                 "JavaScript",
                 "Tabletop.js",
                 "Cloudflare"

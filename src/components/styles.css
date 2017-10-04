@@ -29,6 +29,7 @@
 
 /* Desc Style */
 
+
 .desc-container {
     text-align: left;
     word-wrap: break-word;
@@ -49,6 +50,10 @@
 .desc-time {
     color: #efefef; 
     font-size: 12px;
+}
+.desc-tech {
+    color: #efefef; 
+    font-size: 11px;
 }
 
 /* Header Style */

@@ -12,7 +12,8 @@ export default ({
             infinite
             autoplay
             fade
-            autoplaySpeed={3000}
+            pauseOnHover
+            autoplaySpeed={3000 + Math.floor(Math.random() * 1000)}
         >
             {
                 imageUrls.map((uri) => (

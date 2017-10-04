@@ -1,3 +1,8 @@
+a:hover{
+    opacity: 0.5;
+    transition: opacity 0.3s ease-out;
+}
+
 .app {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -21,4 +26,8 @@
     display: -webkit-flex; 
     display: flex;
     flex-direction: column;
+}
+
+.button {
+    text-decoration: none;
 }
