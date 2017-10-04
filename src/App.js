@@ -5,7 +5,7 @@ import {
     Project
 } from './components'
 import projects from './projects.json'
-
+import FaAngleDown from 'react-icons/lib/fa/angle-down'
 class App extends Component {
     render() {
         return (
@@ -16,8 +16,9 @@ class App extends Component {
                         subtitle={projects.header.subtitle}
                         social={projects.header.social}
                     />
+                    <a href="#projects" className="down"><FaAngleDown size={38} color={'rgba(255,255,255,0.8)'}/></a>
                 </div>
-                <p className="projects-title">projects</p>
+                <p id="projects" className="projects-title">projects</p>
                 <div className="projects">
                     {
                         projects.projects.map((project) => (
@@ -25,7 +26,7 @@ class App extends Component {
                         ))
                     }
                 </div>
-                 <div className="bg" style={{
+                <div className="bg" style={{
                     background: projects.background + ' no-repeat',
                     backgroundPosition: 'top',
                     backgroundSize: '100% 100%',

@@ -44,6 +44,12 @@ a:hover{
     z-index: 3;
 }
 
+.down {
+    padding-bottom: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
 .bg {
     opacity: 0;
     position: absolute;
