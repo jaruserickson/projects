@@ -1,9 +1,9 @@
 # projects
-website was feeling empty so i made a projects section.
+website was feeling empty so i made a projects section
 
-this thing is totally json powered! 
+and this thing is totally json powered! 
 
-plug any json (of the format specified) into the `projects.json` file to generate a projects page.
+plug any json (of the format specified) into the `src/projects.json` file to generate a projects page.
 
 ## deploying
 
@@ -12,7 +12,7 @@ i personally recommend [surge](http://surge.sh) for hosting static sites, instal
 ```
 npm i -g surge
 ```
-now in the project folder (after logging into surge `surge login`)
+now in the project folder (after logging into surge via `surge login`)
 ```
 npm i
 npm run-script build
