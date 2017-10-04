@@ -27,7 +27,6 @@
         },
         {
             "name": "Spotiplay",
-            "url": "https://github.com/jaruserickson/spotiplay/",
             "fromTime": "October 2017",
             "toTime": ".",
             "desc": "spotiplay is a python CLI for making rooms where users can add songs and listen to songs with their friends.",
@@ -39,11 +38,15 @@
                 "https://storage.googleapis.com/staging.tailor-1d71a.appspot.com/tailor.jpg",
                 "https://storage.googleapis.com/staging.tailor-1d71a.appspot.com/tailor04.png",
                 "https://storage.googleapis.com/staging.tailor-1d71a.appspot.com/tailor03.png"
-            ]
+            ],
+            "links": {
+                "github": [
+                    "https://github.com/jaruserickson/spotiplay/"
+                ]
+            }
         },
         {
             "name": "ytmusic",
-            "url": "https://github.com/jaruserickson/ytmusic-react/",
             "fromTime": "January 2047",
             "toTime": ".",
             "desc": "ytmusic aims to simplify the music listening experience YouTube offers to simply music.",
@@ -56,7 +59,12 @@
                 "https://storage.googleapis.com/staging.tailor-1d71a.appspot.com/tailor.jpg",
                 "https://storage.googleapis.com/staging.tailor-1d71a.appspot.com/tailor04.png",
                 "https://storage.googleapis.com/staging.tailor-1d71a.appspot.com/tailor03.png"
-            ]
+            ],
+            "links": {
+                "github": [
+                    "https://github.com/jaruserickson/ytmusic-react/"
+                ]
+            }
         },
         {
             "name": "UofT eSports website",
@@ -85,7 +93,7 @@
             "url": "https://cs.uoftesports.club/",
             "fromTime": "August 2017",
             "toTime": "Present",
-            "desc": "The UofT CounterStrike Club brings CounterStrike players of all kinds together at the UofT for collegiate and intramural play.",
+            "desc": "The UofT CounterStrike Club brings Counterstrike players of all kinds together at the UofT for collegiate and intramural play.",
             "tech": [
                 "HTML/CSS",
                 "JavaScript",

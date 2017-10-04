@@ -7,9 +7,13 @@ import '../styles.css'
 
 export default ({github, url}) => (
     <span>
-        <a style={{paddingRight: 10}} href={url} target="_blank">
-            <FaExternalLink size={18} color={"white"}/>
-        </a>
+        {
+            url && (
+                <a style={{paddingRight: 10}} href={url} target="_blank">
+                    <FaExternalLink size={18} color={"white"}/>
+                </a>
+            )
+        }
         {
             github && (
                 github.map((link) => (
