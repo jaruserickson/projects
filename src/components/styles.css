@@ -14,7 +14,6 @@
     padding: 30px;
 }
 
-
 /* Images Style */
 .slicker {
     width: 320px;
@@ -28,7 +27,6 @@
 }
 
 /* Desc Style */
-
 
 .desc-container {
     text-align: left;
@@ -76,7 +74,6 @@
     text-decoration: none;
 }
 
-
 .header-container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -85,8 +82,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 80px;
-    margin-bottom: 40px;
+    margin-top: 55px;
+    margin-bottom: 10px;
     z-index: 3;
 }
 

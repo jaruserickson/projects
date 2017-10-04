@@ -28,7 +28,6 @@ class App extends Component {
                 <div className="bg" style={{
                     background: projects.background,
                     backgroundPosition: 'center',
-                    backgroundSize: '100% 100%',
                     backgroundSize: 'cover',
                 }}/>
             </div>
