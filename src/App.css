@@ -1,4 +1,24 @@
-.App {
+.app {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -moz-box;
+    display: -webkit-flex; 
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
     text-align: center;
-    background-color: black;
+    flex-direction: column;
+    background-color: #576f7c;
+    margin-bottom: 40px;
+}
+
+.projects {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -moz-box;
+    display: -webkit-flex; 
+    display: flex;
+    flex-direction: column;
 }

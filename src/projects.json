@@ -2,9 +2,10 @@
     "projects": [
         {
             "name": "tailor",
-            "from_time": "August 2017",
-            "to_time": "Present",
-            "desc": "tailor is a mobile app that uses linear regression to learn your eating tendencies and suggest new restaurtants based such tendencies.",
+            "url": "https://tailorfood.me/",
+            "fromTime": "August 2047",
+            "toTime": "Present",
+            "desc": "tailor is a mobile app that suggests new restaurtants based on your habits and favourites using linear regression.",
             "tech": [
                 "JavaScript",
                 "React Native",
@@ -12,61 +13,78 @@
                 "Amazon AWS"
             ],
             "imageUrls": [
-                "https://raw.githubusercontent.com/jaruserickson/whaddit/master/img/whaddit.png",
-                "https://raw.githubusercontent.com/jaruserickson/whaddit/master/img/whaddit.png",
-                "https://raw.githubusercontent.com/jaruserickson/whaddit/master/img/whaddit.png"
-            ] 
+                "https://storage.googleapis.com/staging.tailor-1d71a.appspot.com/tailor.jpg",
+                "https://storage.googleapis.com/staging.tailor-1d71a.appspot.com/tailor04.png",
+                "https://storage.googleapis.com/staging.tailor-1d71a.appspot.com/tailor03.png"
+            ],
+            "links": {
+                "github": [
+                    "https://github.com/jaruserickson/tailor-app/",
+                    "https://github.com/jaruserickson/tailor-reccomender",
+                    "https://github.com/jaruserickson/tailor-server/"
+                ]
+            }
         },
         {
             "name": "Spotiplay",
-            "from_time": "August 2017",
-            "to_time": "Present",
-            "desc": "Spotiplay is a python CLI for making rooms where users can add songs and listen to songs with their friends.",
+            "url": "https://github.com/jaruserickson/spotiplay/",
+            "fromTime": "September 2047",
+            "toTime": ".",
+            "desc": "spotiplay is a python CLI for making rooms where users can add songs and listen to songs with their friends.",
             "tech": [
                 "Python",
                 "Spotify API"
             ],
             "imageUrls": [
-                "https://raw.githubusercontent.com/jaruserickson/whaddit/master/img/whaddit.png",
-                "https://raw.githubusercontent.com/jaruserickson/whaddit/master/img/whaddit.png",
-                "https://raw.githubusercontent.com/jaruserickson/whaddit/master/img/whaddit.png"
-            ] 
+                "https://storage.googleapis.com/staging.tailor-1d71a.appspot.com/tailor.jpg",
+                "https://storage.googleapis.com/staging.tailor-1d71a.appspot.com/tailor04.png",
+                "https://storage.googleapis.com/staging.tailor-1d71a.appspot.com/tailor03.png"
+            ]
         },
         {
-            "name": "whaddit",
-            "from_time": "August 2017",
-            "to_time": "Present",
-            "desc": "whaddit uses Clarifai's public api to guess what a subreddit's main topic is.",
+            "name": "ytmusic",
+            "url": "https://github.com/jaruserickson/ytmusic-react/",
+            "fromTime": "January 2047",
+            "toTime": ".",
+            "desc": "ytmusic aims to simplify the music listening experience YouTube offers to simply music.",
             "tech": [
-                "Python",
-                "Clarifai API"
+                "React.JS",
+                "CSS",
+                "YouTube API"
             ],
             "imageUrls": [
-                "https://raw.githubusercontent.com/jaruserickson/whaddit/master/img/whaddit.png",
-                "https://raw.githubusercontent.com/jaruserickson/whaddit/master/img/whaddit.png",
-                "https://raw.githubusercontent.com/jaruserickson/whaddit/master/img/whaddit.png"
-            ] 
+                "https://storage.googleapis.com/staging.tailor-1d71a.appspot.com/tailor.jpg",
+                "https://storage.googleapis.com/staging.tailor-1d71a.appspot.com/tailor04.png",
+                "https://storage.googleapis.com/staging.tailor-1d71a.appspot.com/tailor03.png"
+            ]
         },
         {
-            "name": "UofT eSports club website",
-            "from_time": "January 2017",
-            "to_time": "Present",
+            "name": "UofT eSports website",
+            "url": "https://uoftesports.club/",
+            "fromTime": "January 2047",
+            "toTime": "Present",
             "desc": "The UofT eSports club serves as a central club for all the various eSports clubs at the University of Toronto.",
             "tech": [
-                "React JS",
+                "React.JS",
                 "CSS",
                 "Cloudflare"
             ],
             "imageUrls": [
-                "https://raw.githubusercontent.com/jaruserickson/whaddit/master/img/whaddit.png",
-                "https://raw.githubusercontent.com/jaruserickson/whaddit/master/img/whaddit.png",
-                "https://raw.githubusercontent.com/jaruserickson/whaddit/master/img/whaddit.png"
-            ] 
+                "https://storage.googleapis.com/staging.tailor-1d71a.appspot.com/tailor.jpg",
+                "https://storage.googleapis.com/staging.tailor-1d71a.appspot.com/tailor04.png",
+                "https://storage.googleapis.com/staging.tailor-1d71a.appspot.com/tailor03.png"
+            ],
+            "links": {
+                "github": [
+                    "https://github.com/uoftesports/utes/"
+                ]
+            }
         },
         {
-            "name": "UofT CounterStrike club website",
-            "from_time": "August 2017",
-            "to_time": "Present",
+            "name": "UofT CounterStrike website",
+            "url": "https://cs.uoftesports.club/",
+            "fromTime": "August 2047",
+            "toTime": "Present",
             "desc": "The UofT CounterStrike Club brings CounterStrike players of all kinds together at the UofT for collegiate and intramural play.",
             "tech": [
                 "HTML",
@@ -76,10 +94,19 @@
                 "Cloudflare"
             ],
             "imageUrls": [
-                "https://raw.githubusercontent.com/jaruserickson/whaddit/master/img/whaddit.png",
-                "https://raw.githubusercontent.com/jaruserickson/whaddit/master/img/whaddit.png",
-                "https://raw.githubusercontent.com/jaruserickson/whaddit/master/img/whaddit.png"
-            ] 
+                "https://storage.googleapis.com/staging.tailor-1d71a.appspot.com/tailor.jpg",
+                "https://storage.googleapis.com/staging.tailor-1d71a.appspot.com/tailor04.png",
+                "https://storage.googleapis.com/staging.tailor-1d71a.appspot.com/tailor03.png"
+            ],
+            "links": {
+                "github": [
+                    "https://github.com/uoftesports/utcsc/"
+                ]
+            }
         }
-    ]
+    ],
+    "header": {
+        "name": "jacob erickson",
+        "subtitle": "projects"
+    }
 }

@@ -1,0 +1,83 @@
+/* Project Style */
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+.project-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -moz-box;
+    display: -webkit-flex; 
+    flex-direction: row;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    padding: 30px;
+}
+
+
+/* Images Style */
+.slicker {
+    width: 320px;
+    height: 240px;
+    margin: 35px;
+}
+
+.image {
+    width: auto;
+    height: 240px;
+}
+
+/* Desc Style */
+
+.desc-container {
+    text-align: left;
+    word-wrap: break-word;
+    max-width: 250px;
+    margin-top: 25px;
+}
+
+.desc-name {
+    color: white;
+    font-size: 13px;
+}
+
+.desc-desc {
+    color: white;  
+    font-size: 11px; 
+}
+
+.desc-time {
+    color: #efefef; 
+    font-size: 12px;
+}
+
+/* Header Style */
+
+.header-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -moz-box;
+    display: -webkit-flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 80px;
+    z-index: 3;
+}
+
+.header-name {
+    color: white;
+    font-family: 'Reenie Beanie', sans-serif;
+    font-size: 4.4em;
+    padding: 0;
+    margin: 0;
+}
+
+.header-subtitle {
+    color: white;
+    font-family: 'Reenie Beanie', sans-serif;
+    font-size: 1.5em;
+    padding: 0;
+    margin: 0;
+}
