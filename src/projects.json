@@ -45,7 +45,8 @@
             "desc": "spotiplay is a python CLI [in development] for making rooms where users can add songs and listen to songs with their friends.",
             "tech": [
                 "Python",
-                "Spotify API"
+                "Spotify API",
+                "Amazon AWS"
             ],
             "imageUrls": [
                 "https://storage.googleapis.com/staging.tailor-1d71a.appspot.com/spotiplay.png",
@@ -102,7 +103,7 @@
         {
             "name": "UofT CounterStrike website",
             "url": "https://cs.uoftesports.club/",
-            "fromTime": "August 2017",
+            "fromTime": "January 2017",
             "toTime": "Present",
             "desc": "The UofT CounterStrike Club brings Counterstrike players of all kinds together at the UofT for collegiate and intramural play.",
             "tech": [

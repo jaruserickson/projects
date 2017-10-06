@@ -46,9 +46,12 @@ a:hover{
 }
 
 .down {
-    padding-bottom: 40px;
+    padding-bottom: 60px;
     padding-left: 100px;
     padding-right: 100px;
+    position: absolute;
+    bottom: 60px;
+    z-index: 100;
 }
 
 .bg {
@@ -56,8 +59,8 @@ a:hover{
     position: absolute;
     top: 0;
 
-    height: 110%;
-    width: 110%;
+    height: 100%;
+    width: 100%;
     top: -20px;
 
     -webkit-filter: blur(15px);
