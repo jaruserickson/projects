@@ -38,7 +38,6 @@
         },
         {
             "name": "Spotiplay",
-            "url": "https://spotiplay.jaruserickson.com/",
             "fromTime": "October 2017",
             "toTime": ".",
             "desc": "spotiplay is a python CLI [in development] for making rooms where users can add songs and listen to songs with their friends.",
