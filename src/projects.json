@@ -32,7 +32,7 @@
             "links": {
                 "github": [
                     "https://github.com/tailorfood/tailor-app/",
-                    "https://github.com/tailorfood/tailor-reccomender"
+                    "https://github.com/tailorfood/tailor-recommender"
                 ]
             }
         },
@@ -44,7 +44,8 @@
             "desc": "spotiplay is a python CLI [in development] for making rooms where users can add songs and listen to songs with their friends.",
             "tech": [
                 "Python",
-                "Spotify API",
+                "Sockets",
+                "Multiprocessing",
                 "Amazon AWS"
             ],
             "imageUrls": [
