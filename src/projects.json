@@ -21,13 +21,15 @@
             "tech": [
                 "JavaScript",
                 "React Native",
+                "GraphQL",
                 "Python",
-                "Amazon AWS"
+                "AWS Lambda"
             ],
             "imageUrls": [
                 "https://storage.googleapis.com/staging.tailor-1d71a.appspot.com/tailorr.png",
                 "https://storage.googleapis.com/staging.tailor-1d71a.appspot.com/tailor06.png",
-                "https://storage.googleapis.com/staging.tailor-1d71a.appspot.com/tailor05.png"
+                "https://storage.googleapis.com/staging.tailor-1d71a.appspot.com/tailor05.png",
+                "https://storage.googleapis.com/staging.tailor-1d71a.appspot.com/tailor07.png"
             ],
             "links": {
                 "github": [
@@ -45,7 +47,7 @@
                 "Python",
                 "Sockets",
                 "Multiprocessing",
-                "Amazon AWS"
+                "AWS EC2"
             ],
             "imageUrls": [
                 "https://storage.googleapis.com/staging.tailor-1d71a.appspot.com/spotiplay.png",
