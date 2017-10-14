@@ -39,7 +39,7 @@
             }
         },
         {
-            "name": "spoticast",
+            "name": "spoticast (spotiplay)",
             "fromTime": "October 2017",
             "toTime": ".",
             "desc": "spoticast is a python CLI for making rooms where users can broadcast their spotify and DJ for their friends",
