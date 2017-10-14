@@ -39,23 +39,24 @@
             }
         },
         {
-            "name": "Spotiplay",
+            "name": "spoticast",
             "fromTime": "October 2017",
             "toTime": ".",
-            "desc": "spotiplay is a python CLI [in development] for making rooms where users can add songs and listen to songs with their friends.",
+            "desc": "spoticast is a python CLI for making rooms where users can broadcast their spotify and DJ for their friends",
             "tech": [
                 "Python",
+                "AppleScript",
                 "Sockets",
                 "Multiprocessing",
                 "AWS EC2"
             ],
             "imageUrls": [
-                "https://storage.googleapis.com/staging.tailor-1d71a.appspot.com/spotiplay.png",
-                "https://storage.googleapis.com/staging.tailor-1d71a.appspot.com/spotiplay01.png"
+                "https://storage.googleapis.com/staging.tailor-1d71a.appspot.com/spoticast.png",
+                "https://storage.googleapis.com/staging.tailor-1d71a.appspot.com/spoticast01.png"
             ],
             "links": {
                 "github": [
-                    "https://github.com/jaruserickson/spotiplay/"
+                    "https://github.com/jaruserickson/spoticast/"
                 ]
             }
         },
