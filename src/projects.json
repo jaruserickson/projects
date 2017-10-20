@@ -27,7 +27,6 @@
             ],
             "imageUrls": [
                 "https://storage.googleapis.com/staging.tailor-1d71a.appspot.com/tailorr.png",
-                "https://storage.googleapis.com/staging.tailor-1d71a.appspot.com/tailor06.png",
                 "https://storage.googleapis.com/staging.tailor-1d71a.appspot.com/tailor08.png",
                 "https://storage.googleapis.com/staging.tailor-1d71a.appspot.com/tailor09.png"
             ],
@@ -72,8 +71,8 @@
                 "YouTube API"
             ],
             "imageUrls": [
-                "https://storage.googleapis.com/staging.tailor-1d71a.appspot.com/ytmusicblock.png",
-                "https://storage.googleapis.com/staging.tailor-1d71a.appspot.com/ytmusic07.png"
+                "https://storage.googleapis.com/staging.tailor-1d71a.appspot.com/ytm.png",
+                "https://storage.googleapis.com/staging.tailor-1d71a.appspot.com/ytmusic.png"
             ],
             "links": {
                 "github": [
@@ -93,8 +92,9 @@
                 "Cloudflare"
             ],
             "imageUrls": [
-                "https://storage.googleapis.com/staging.tailor-1d71a.appspot.com/uoftesports01.png",
-                "https://storage.googleapis.com/staging.tailor-1d71a.appspot.com/uoftesports02.png"
+                "https://storage.googleapis.com/staging.tailor-1d71a.appspot.com/utesl.png",
+                "https://storage.googleapis.com/staging.tailor-1d71a.appspot.com/utes.png",
+                "https://storage.googleapis.com/staging.tailor-1d71a.appspot.com/utes01.png"
             ],
             "links": {
                 "github": [
@@ -115,8 +115,7 @@
                 "Cloudflare"
             ],
             "imageUrls": [
-                "https://storage.googleapis.com/staging.tailor-1d71a.appspot.com/utcsc01.png",
-                "https://storage.googleapis.com/staging.tailor-1d71a.appspot.com/utcsc02.png"
+                "https://storage.googleapis.com/staging.tailor-1d71a.appspot.com/utcsc.png"
             ],
             "links": {
                 "github": [
