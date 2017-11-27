@@ -38,6 +38,27 @@
             }
         },
         {
+            "name": "timesync",
+            "url": "#",
+            "fromTime": "September 2017",
+            "toTime": "December 2017",
+            "desc": "timesync helps users find common times between groups of friends, families and coworkers.",
+            "tech": [
+                "JavaScript",
+                "React",
+                "MongoDB",
+                "Node, Express",
+                "AWS EC2"
+            ],
+            "imageUrls": [
+                "https://storage.googleapis.com/staging.tailor-1d71a.appspot.com/timesync.png",
+                "https://storage.googleapis.com/staging.tailor-1d71a.appspot.com/timesync-home-min.png",
+                "https://storage.googleapis.com/staging.tailor-1d71a.appspot.com/timesync-login-min.png",
+                "https://storage.googleapis.com/staging.tailor-1d71a.appspot.com/timesync-splash-min.png"
+            ],
+            "links": {}
+        },
+        {
             "name": "spoticast (spotiplay)",
             "fromTime": "October 2017",
             "toTime": ".",
@@ -62,7 +83,7 @@
         {
             "name": "ytmusic",
             "url": "https://ytmusic.jaruserickson.com/",
-            "fromTime": "January 2047",
+            "fromTime": "January 2017",
             "toTime": ".",
             "desc": "ytmusic aims to simplify the music listening experience YouTube offers to simply music.",
             "tech": [
