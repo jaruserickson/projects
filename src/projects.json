@@ -5,16 +5,16 @@
         "social": {
             "github": "jaruserickson",
             "instagram": "jaruserickson",
-            "resume": "https://s3.amazonaws.com/jaruserickson/resume.pdf",
+            "resume": "https://s3.amazonaws.com/jaruserickson/resume_2018.pdf",
             "linkedin": "jaruserickson",
             "lastfm": "jarus_e"
         }
     },
-    "background": "url(https://storage.googleapis.com/staging.tailor-1d71a.appspot.com/outt.gif)",
+    "background": "url(https://s3.amazonaws.com/jaruserickson/background.gif)",
     "projects": [
         {
             "name": "tailor",
-            "url": "https://tailorfood.me/",
+            "url": "#",
             "fromTime": "August 2017",
             "toTime": "Present",
             "desc": "tailor is a mobile app [in development] that suggests new restaurtants using a linear regression model to learn your favourites.",
@@ -26,9 +26,9 @@
                 "AWS Lambda"
             ],
             "imageUrls": [
-                "https://storage.googleapis.com/staging.tailor-1d71a.appspot.com/tailorr.png",
-                "https://storage.googleapis.com/staging.tailor-1d71a.appspot.com/tailor08.png",
-                "https://storage.googleapis.com/staging.tailor-1d71a.appspot.com/tailor09.png"
+                "https://s3.amazonaws.com/jaruserickson/tailor.png",
+                "https://s3.amazonaws.com/jaruserickson/tailor_1.png",
+                "https://s3.amazonaws.com/jaruserickson/tailor_2.png"
             ],
             "links": {
                 "github": [
@@ -51,10 +51,10 @@
                 "AWS EC2"
             ],
             "imageUrls": [
-                "https://storage.googleapis.com/staging.tailor-1d71a.appspot.com/timesync.png",
-                "https://storage.googleapis.com/staging.tailor-1d71a.appspot.com/timesync-home-min.png",
-                "https://storage.googleapis.com/staging.tailor-1d71a.appspot.com/timesync-login-min.png",
-                "https://storage.googleapis.com/staging.tailor-1d71a.appspot.com/timesync-splash-min.png"
+                "https://s3.amazonaws.com/jaruserickson/timesync.png",
+                "https://s3.amazonaws.com/jaruserickson/timesync-home-min.png",
+                "https://s3.amazonaws.com/jaruserickson/timesync-login-min.png",
+                "https://s3.amazonaws.com/jaruserickson/timesync-splash-min.png"
             ],
             "links": {}
         },
@@ -71,8 +71,8 @@
                 "AWS EC2"
             ],
             "imageUrls": [
-                "https://storage.googleapis.com/staging.tailor-1d71a.appspot.com/spoticast.png",
-                "https://storage.googleapis.com/staging.tailor-1d71a.appspot.com/spoticast01.png"
+                "https://s3.amazonaws.com/jaruserickson/spoticast.png",
+                "https://s3.amazonaws.com/jaruserickson/spoticast_1.png"
             ],
             "links": {
                 "github": [
@@ -92,8 +92,8 @@
                 "YouTube API"
             ],
             "imageUrls": [
-                "https://storage.googleapis.com/staging.tailor-1d71a.appspot.com/ytm.png",
-                "https://storage.googleapis.com/staging.tailor-1d71a.appspot.com/ytmusic.png"
+                "https://s3.amazonaws.com/jaruserickson/ytm.png",
+                "https://s3.amazonaws.com/jaruserickson/ytmusic.png"
             ],
             "links": {
                 "github": [
@@ -113,9 +113,9 @@
                 "Cloudflare"
             ],
             "imageUrls": [
-                "https://storage.googleapis.com/staging.tailor-1d71a.appspot.com/utesl.png",
-                "https://storage.googleapis.com/staging.tailor-1d71a.appspot.com/utes.png",
-                "https://storage.googleapis.com/staging.tailor-1d71a.appspot.com/utes01.png"
+                "https://s3.amazonaws.com/jaruserickson/utesl.png",
+                "https://s3.amazonaws.com/jaruserickson/utes.png",
+                "https://s3.amazonaws.com/jaruserickson/utes_1.png"
             ],
             "links": {
                 "github": [
@@ -136,7 +136,7 @@
                 "Cloudflare"
             ],
             "imageUrls": [
-                "https://storage.googleapis.com/staging.tailor-1d71a.appspot.com/utcsc.png"
+                "https://s3.amazonaws.com/jaruserickson/utcsc.png"
             ],
             "links": {
                 "github": [
