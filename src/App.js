@@ -11,7 +11,9 @@ import {
 } from 'react-scroll'
 
 class App extends Component {
-    state = {}
+    state = { width: 0, height: 0}
+    
+    TEST_URL = 'https://gist.githubusercontent.com/jaruserickson/42f6908415e889a662c70c7f6e080a11/raw/a3fd4006ba949e5dcaf599aee5c09f62292e7bf8/jaruserickson.json'
     JSON_URL = 'https://files.jaruserickson.com/jaruserickson.json'
 
     loadJson = async () => {
@@ -21,7 +23,19 @@ class App extends Component {
     }
 
     componentDidMount() {
+        // this.JSON_URL = this.TEST_URL
         this.loadJson()
+
+        this.updateWindowDimensions()
+        window.addEventListener('resize', this.updateWindowDimensions)
+    }
+
+    componentWillUnmount() {
+        window.removeEventListener('resize', this.updateWindowDimensions);
+    }
+
+    updateWindowDimensions = () => {
+        this.setState({ width: window.innerWidth, height: window.innerHeight });
     }
 
     render() {
@@ -33,14 +47,18 @@ class App extends Component {
                             subtitle={this.state.projects.header.subtitle}
                             social={this.state.projects.header.social}
                         />
-                        <Link 
-                            to="projects" 
-                            className="down"
-                            smooth={true} 
-                            duration={500}
-                        >
-                            <FaAngleDown size={38} color={'rgba(255,255,255,0.8)'}/>
-                        </Link>
+                        {
+                            this.state.height > 500 && (
+                                <Link 
+                                    to="projects" 
+                                    className="down"
+                                    smooth={true} 
+                                    duration={500}
+                                >
+                                    <FaAngleDown size={38} color={'rgba(255,255,255,0.8)'}/>
+                                </Link>
+                            )
+                        }
                     </div>
                     <Element name="projects" /> 
                     <p className="projects-title">projects</p>
@@ -53,6 +71,11 @@ class App extends Component {
                     </div>
                     <div className="bg" style={{
                         background: this.state.projects.background + ' no-repeat',
+                        backgroundPosition: 'top',
+                        backgroundSize: '100% 100%',
+                        backgroundSize: 'cover'
+                    }}/>
+                    <div className="bg-gradient" style={{
                         backgroundPosition: 'top',
                         backgroundSize: '100% 100%',
                         backgroundSize: 'cover'

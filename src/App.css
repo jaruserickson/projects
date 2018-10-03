@@ -55,31 +55,42 @@ a:hover{
 }
 
 .bg {
-    opacity: 0;
+    opacity: 1;
     position: absolute;
     top: 0;
+
+    z-index:0;
+    height: 100%;
+    width: 100%;
+}
+
+.bg-gradient {
+    position: absolute;
+    top: 0;
+    z-index: 1;
 
     height: 100%;
     width: 100%;
 
-    -webkit-filter: blur(15px);
-    -moz-filter: blur(15px);
-    -o-filter: blur(15px);
-    -ms-filter: blur(15px);
-    filter: blur(15px);
-
-    animation-name: fadeIn;
-    animation-iteration-count: 1;
-    animation-timing-function: ease-in-out;
-    animation-duration: 1s;
-    animation-fill-mode:forwards;
+    background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,1) 100%);
+    background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,1) 100%);
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,1) 100%);
 }
 
+
+@-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+@-moz-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+@-o-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
 @keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
+    0% { opacity: 0; }
+    100% { opacity: 1; }
 }
