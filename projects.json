@@ -5,12 +5,12 @@
         "social": {
             "github": "jaruserickson",
             "instagram": "jaruserickson",
-            "resume": "https://files.jaruserickson.com/resume_2018.pdf",
+            "resume": "https://files.jaruserickson.com/resume_2018.2.pdf",
             "linkedin": "jaruserickson",
             "lastfm": "jarus_e"
         }
     },
-    "background": "url(https://files.jaruserickson.com/background.jpg)",
+    "background": "url(https://files.jaruserickson.com/broll.gif)",
     "projects": [
         {
             "name": "tailor",
