@@ -5,7 +5,7 @@
         "social": {
             "github": "jaruserickson",
             "instagram": "jaruserickson",
-            "resume": "https://files.jaruserickson.com/resume_2018.2.pdf",
+            "resume": "https://files.jaruserickson.com/resume_2019.pdf",
             "linkedin": "jaruserickson",
             "lastfm": "jarus_e"
         }
@@ -13,11 +13,32 @@
     "background": "url(https://files.jaruserickson.com/broll.gif)",
     "projects": [
         {
+            "name": "cyclepaper",
+            "fromTime": "August 2019",
+            "toTime": ".",
+            "desc": "cycle your desktop wallpaper through your favourite subreddit's top posts.",
+            "tech": [
+                "Node",
+                "React",
+                "Express",
+                "Electron",
+                "Tachyons"
+            ],
+            "imageUrls": [
+                "https://files.jaruserickson.com/cyclepaper.png",
+                "https://files.jaruserickson.com/cyclepaper_1.png"
+            ],
+            "links": {
+                "github": [
+                    "https://github.com/jaruserickson/cyclepaper/"
+                ]
+            }
+        },
+        {
             "name": "tailor",
-            "url": "#",
             "fromTime": "August 2017",
             "toTime": "Present",
-            "desc": "tailor is a mobile app [in development] that suggests new restaurtants using a linear regression model to learn your favourites.",
+            "desc": "tailor is a mobile app [in development] that suggests new restaraunts using a linear regression model to learn your favourites.",
             "tech": [
                 "JavaScript",
                 "React Native",
@@ -39,7 +60,6 @@
         },
         {
             "name": "timesync",
-            "url": "#",
             "fromTime": "September 2017",
             "toTime": "December 2017",
             "desc": "timesync helps users find common times between groups of friends, families and coworkers.",
