@@ -1,4 +1,13 @@
 # projects
+
+**note:** 
+
+This branch is in a weird state since I've migrated off of the old hosting, and am now hosting everything statically.
+
+I'm going to be rehauling my personal website, and this will serve as a staging page.
+
+---
+
 my personal website is totally json powered!
 
 this means you can plug any json (following [Example JSON](https://files.jaruserickson.com/jaruserickson.json)'s format) into the `JSON_URL` in `src/App.js` file to generate a projects page of your own - just like [mine](https://jaruserickson.com). (i'd also edit `public/index.html` to your liking)

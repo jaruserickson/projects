@@ -18,7 +18,7 @@ export default ({
         >
             {
                 imageUrls.map((uri) => (
-                    <img className="image" src={uri}/>
+                    <img className="image" alt="slider" src={uri}/>
                 ))
             }
         </Slider>

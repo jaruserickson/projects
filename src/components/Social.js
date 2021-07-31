@@ -15,7 +15,7 @@ export default ({github, instagram, linkedin, resume, lastfm}) => (
         <p>
         {
             github && (
-                <a className="button" href={`https://github.com/${github}`} target="_blank">
+                <a className="button" href={`https://github.com/${github}`}>
                     <span> <IoSocialOctocat color={'white'} size={20}/> </span>
                 </a>
             )
@@ -23,24 +23,15 @@ export default ({github, instagram, linkedin, resume, lastfm}) => (
 
         {
             linkedin && (
-                <a className="button" href={`https://linkedin.com/in/${linkedin}`} target="_blank">
+                <a className="button" href={`https://linkedin.com/in/${linkedin}`}>
                     <span> <IoSocialLinkedin color={'white'} size={20}/> </span>
-                </a>
-            )
-        }
-
-
-        {
-            resume && (
-                <a className="button" href={resume} target="_blank">
-                    <span><TiDocumentText color={'white'} size={20}/></span>
                 </a>
             )
         }
 
         {
             instagram && (
-                <a className="button" href={`https://instagram.com/${instagram}`} target="_blank">
+                <a className="button" href={`https://instagram.com/${instagram}`}>
                     <span> <IoSocialInstagram color={'white'} size={20}/> </span>
                 </a>
             )
@@ -48,7 +39,7 @@ export default ({github, instagram, linkedin, resume, lastfm}) => (
 
         {
             lastfm && (
-                <a className="button" href={`https://last.fm/user/${lastfm}`} target="_blank">
+                <a className="button" href={`https://last.fm/user/${lastfm}`}>
                     <span> <TiSocialLastFm color={'white'} size={25}/> </span>
                 </a>
             )

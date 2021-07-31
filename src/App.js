@@ -13,11 +13,10 @@ import {
 class App extends Component {
     state = { width: 0, height: 0}
     
-    TEST_URL = 'https://gist.githubusercontent.com/jaruserickson/42f6908415e889a662c70c7f6e080a11/raw/a3fd4006ba949e5dcaf599aee5c09f62292e7bf8/jaruserickson.json'
-    JSON_URL = 'https://files.jaruserickson.com/jaruserickson.json'
+    JSON_PATH = '/files/projects.json'
 
     loadJson = async () => {
-        const apiResult = await fetch(this.JSON_URL)
+        const apiResult = await fetch(this.JSON_PATH)
         const siteData = await apiResult.json()
         this.setState({projects: siteData})
     }
@@ -36,6 +35,10 @@ class App extends Component {
 
     updateWindowDimensions = () => {
         this.setState({ width: window.innerWidth, height: window.innerHeight });
+    }
+
+    urlify = (path) => {
+        return 'url(' + path + ')'
     }
 
     render() {
@@ -70,15 +73,15 @@ class App extends Component {
                         }
                     </div>
                     <div className="bg" style={{
-                        background: this.state.projects.background + ' no-repeat',
+                        background: `url(${this.state.projects.background}) no-repeat`,
                         backgroundPosition: 'top',
                         backgroundSize: '100% 100%',
-                        backgroundSize: 'cover'
+                        backgroundSize: 'cover',
                     }}/>
                     <div className="bg-gradient" style={{
                         backgroundPosition: 'top',
                         backgroundSize: '100% 100%',
-                        backgroundSize: 'cover'
+                        backgroundSize: 'cover',
                     }}/>
                 </div>
             ) : null
